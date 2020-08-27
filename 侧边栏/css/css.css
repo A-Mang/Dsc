@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.disable{
+    width: 300px;
+    height: 100%;
+    background-color: #000000;
+    position: fixed;
+    right: -261px;
+    bottom: 0;
+    z-index: 999;
+}
+.disable-le-01{
+    width: 40px;
+    height: 100%;
+    float: left;
+}
+.disable-ri-01{
+    width: 260px;
+    height:100%;
+    float: left;
+    background-color: #ECEAEA;
+    position: relative;
+}
+.disable-le-001{
+    width: 40px;
+    height: 80%;
+    margin: auto 0;
+    margin-top: 100px;
+}
+.disable-le-001-i{
+    width: 40px;
+    height: 40px;
+    background-color: #B31919;
+    background: url("../images/jlt.png") no-repeat 10px 17px;
+    position: relative;
+}
+.username{
+    width: 240px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: -260px;
+    display: none;
+    padding: 10px;
+}
+.username-img{
+    width: 120px;
+    height: 120px;
+    background: url(../images/touxiang.jpg) no-repeat;
+    float: left;
+    border-radius: 50%;
+}
+.username-text{
+    height: 50px;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+    padding-top: 70px;
+}
+.username-x{
+    width: 100%;
+    border-top: 1px dashed #CCCCCC;
+    margin-top: 20px;
+}
+.account-btn{
+    width: 100%;
+    height: 40px;
+    background-color: #F42424;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+}
+.username-btn{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.username-btn button{
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-bottom: 2px solid #8C8C8C!important;
+    font-size: 12px;
+}
+.disable-le-001-cart{
+    width: 30px;
+    height: 135px;
+    padding: 10px 5px;
+    margin-top: 10px;
+}
+.disable-le-001-somei ul{
+    list-style: none;
+}
+.disable-le-001-top{
+    width: 40px;
+    height: 83px;
+    position: absolute;
+    bottom: 0;
+    margin-top: 10px;
+    padding-top: 16px;
+}
+.disable-ri-01-first{
+    width: 100%;
+    height: 35px;
+    background: url("../images/jlt.png") no-repeat 10px -164px;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+}
+.disable-ri-01-second{
+    width: 100%;
+    height: 35px;
+    margin-top: 30px;
+    position: relative;
+    display: none;
+    background: url("../images/jlt.png") no-repeat 13px -192px;
+}
+.disable-le-001-somei ul li{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    position: relative;
+}
+.disable-le-001-somei ul li:first-child{
+    background: url("../images/侧边栏小图标1.png");
+    background-size: cover;
+}
+.disable-le-001-somei ul li:nth-child(2){
+    background: url("../images/jlt.png") no-repeat -24px 15px;
+    
+}
+.disable-le-001-somei ul li:nth-child(3){
+    background: url("../images/jlt.png") no-repeat 10px -46px;
+    
+}
+.disable-le-001-somei ul li:nth-child(4){
+    background: url("../images/jlt.png") no-repeat 10px -102px;  
+}
+.disable-le-001-somei ul li:nth-child(5){
+    background: url("../images/侧边栏小图标2.png"); 
+    background-size: cover; 
+}
+.disable-le-001-somei ul li:nth-child(6){
+    background: url("../images/侧边栏小图标3.png"); 
+    background-size: cover; 
+}
+.disable-le-001-cart-first{
+    width: 100%;
+    height: 30px;
+    background: url("../images/jlt.png") no-repeat 6px -27px;
+}
+.disable-le-001-cart-second{
+    width: 100%;
+    height: 70px;
+    color: white;
+    text-align: center; 
+}
+.disable-le-001-cart-three{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.disable-le-001-somei-01{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: -110px;
+    position: relative;
+    display: none;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+}
+.yd{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    right: -4px;
+    top: 10px;
+    transform: rotate(45deg)
+}
+.disable-ri-01-nav{
+    width: 100%;
+    height: 40px;
+    background-color: #EFEFEF;
+    padding: 5px 10px;
+}
+.disable-ri-01-nav-left{
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    line-height: 35px;
+}
+.disable-ri-01-nav-right{
+    width: 30px;
+    height: 30px;
+    background-color: #B31919;
+    float:left;
+    margin-left: 110px;
+    background: url("../images/jlt.png") no-repeat 6px -265px;
+}
+.disable-ri-01-footer{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+.disable-ri-01-footer-top{
+    width: 240px;
+    height: 20px;
+    padding: 10px 10px;
+}
+.disable-ri-01-footer-top span{
+    font-size: 12px;
+    color: #868686;
+}
+.number-01{
+    color: #F42424!important;
+    font-size: 14px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
